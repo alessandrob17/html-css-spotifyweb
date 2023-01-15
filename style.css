@@ -1,0 +1,49 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    :root{
+        --dark-black: #080B12;
+        --light-black: #141922;
+        --bar-black: #282828;
+
+    }
+
+    /* DEBUG */
+
+    .left-bar,
+    .right-content,
+    .bottom-player{
+        /* border: red solid 1px; */
+        /* padding: 50px; */
+    }
+
+    .left-bar,
+    .right-content,
+    .bottom-player{
+        position: fixed;
+    }
+
+    .bottom-player{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--bar-black);
+        height: 90px;
+    }
+    .left-bar{
+        left: 0;
+        width: 230px;
+        height: calc(100vh - 90px);
+        overflow: hidden;
+        background-color: var(--dark-black);
+    }
+    .right-content{
+        right: 0;
+        top: 0;
+        width: calc(100% - 230px);
+        height: calc(100vh - 90px);
+        overflow: auto;
+        background-color: var(--light-black);
+    }
