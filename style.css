@@ -26,6 +26,9 @@
     .bottom-player{
         position: fixed;
     }
+    .fa-circle-user{
+        font-size: 25px;
+    }
 
     .bottom-player{
         bottom: 0;
@@ -75,6 +78,9 @@ header figure{
     display: flex;
     
 }
+.leftbar-margin{
+    margin-top: 150px;
+}
 .flex-items{
     align-items: center;
 }
@@ -100,3 +106,52 @@ padding-top: 20px;
 .padding-search1{
     padding-bottom: 10px;
 }
+/* DEBUG PLAYER */
+.col-right-player,
+.col-middle-player,
+.col-left-player{
+    border: red solid;
+    width: 300px;
+}
+.row-player{
+    justify-content: space-between;
+}
+.sinister{
+    align-items: center;
+    padding-right: 65px;
+}
+.sinisterbuttons{
+    padding-left: 30px;
+    gap: 20px;
+
+    color: lightslategray;
+}
+.font-size{
+    font-size: 13px;
+}
+
+@media (max-width:  544px){
+.nome-playlist{
+    display: none;
+}
+.leftbar-margin{
+    margin-top: 425px;
+}
+.left-bar{
+    width: 50px;
+}
+.right-content{
+    width: calc(100% - 50px);
+}
+.logo-spoty{
+    display: none;
+    }
+    .fa-house,
+    .fa-magnifying-glass,
+    .fa-lines-leaning{
+font-size: 18px;
+    }
+    .fa-circle-user{
+font-size: 22px;
+    }
+} 
