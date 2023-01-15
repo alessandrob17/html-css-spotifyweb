@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: sans-serif;
     }
     :root{
         --dark-black: #080B12;
@@ -67,12 +68,34 @@ header figure{
 }
 .container-leftbar{
     padding-left: 15px;
-    padding-top: 22px;
+    padding-top: 20px;
     color: var(--light-grey);
 }
 .flex{
     display: flex;
+    
 }
 .flex-items{
     align-items: center;
+}
+.left-1sect{
+    padding-top: 20px;
+ font-size: 20px;
+}
+.padding-search{
+    padding-top: 9px;
+}
+.directions{
+    font-size: 15px;
+    align-items: center;
+    padding-left: 10px;
+}
+.align{
+    align-items: center;
+}
+.sect2-leftbar{
+padding-top: 28px;
+}
+.padding-search1{
+    padding-bottom: 10px;
 }
