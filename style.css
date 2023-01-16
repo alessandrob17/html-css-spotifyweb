@@ -57,6 +57,9 @@
 header figure{
     width: 65%;
 }
+.logo-small{
+    display: none;
+}
 .white{
     color: white;
 }
@@ -163,6 +166,11 @@ margin-left: -4px;
     .sinisterbuttons{
         flex-wrap: wrap;
         row-gap: 1px;
+    }
+    .logo-small{
+        display: block;
+        width: 24px;
+
     }
   
 } 
