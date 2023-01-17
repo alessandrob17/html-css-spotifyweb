@@ -168,6 +168,7 @@ header figure{
         display: block;
         width: 24px;
    }
+   
 }
 /* PLAYER */
 .buttons-player{
@@ -175,6 +176,12 @@ header figure{
     gap: 23px;
     font-size: 20px;
 }
+
+.button-play{
+    font-size: 25px;
+}
+
+
 .player-line{
     height: 4px;
     background-color: var(--dark-black);
@@ -233,7 +240,50 @@ header figure{
 }
 .container-recently-played{
     flex-wrap: wrap;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 .card-album{
     width: calc(100%/6);
+    padding-right: 15px;
+    width: 190px;
+}
+
+.big-container-main{
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.row-dailymix{
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.card-dailymix{
+    width: 190px;
+    padding-right: 15px;
+}
+
+.container-creatoper{
+    padding-top: 25px;
+}
+
+.p-main-font{
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+.txt-align{
+    text-align: center;
+}
+
+
+
+/* HOVER */
+
+.button-play:hover{
+    font-size: 30px;
+}
+.l-grey:hover{
+    text-decoration: white;
 }
